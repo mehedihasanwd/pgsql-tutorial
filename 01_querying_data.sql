@@ -16,3 +16,9 @@ VALUES
 
 -- Section 01: Querying Data --
 SELECT _id FROM users;
+
+-- Using column alias
+SELECT _id AS user_id FROM users;
+
+-- Using PGSQL SELECT statement without a FROM clause (FROM clause is optional)
+SELECT NOW();
